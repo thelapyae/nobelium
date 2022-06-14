@@ -25,8 +25,8 @@ const NavBar = () => {
                 <Link href={link.to}>
                   <a>{link.name}</a>
                 </Link>
-                <Link href={/home}>
-                  <a>{Home}</a>
+                <Link href={link.to}>
+                  <a>{link.Home}</a>
                 </Link>
               </li>
             )
