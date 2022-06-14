@@ -25,6 +25,9 @@ const NavBar = () => {
                 <Link href={link.to}>
                   <a>{link.name}</a>
                 </Link>
+                <Link href={/home}>
+                  <a>{Home}</a>
+                </Link>
               </li>
             )
         )}
